@@ -1,4 +1,4 @@
-word="hello \n"
-times=int(input(" Enter the number:"))
+word="Hello\n"
+times=int(input())
 output=word*times
 print (output)
