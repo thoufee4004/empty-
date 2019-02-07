@@ -1,8 +1,7 @@
-print("check the given number is positive or negative or zero")
-a=input("enter the number")
+a=input()
 if(a<0):
-    print('the given',+a,"is negative number")
+    print("negative")
 elif(a==0):
-    print('the given',a,"is equal to zero")
+    print("zero")
 else:
-    print('the given',a,"is positive number")
+    print("positive")
