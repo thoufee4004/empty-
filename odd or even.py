@@ -1,11 +1,9 @@
-print("check whether a number is odd or even")
-a=int(input("enter the number"))
-print(a)
+a=int(input())
 if(a<0):
-    print('the given input is not valid')
+    print('invalid')
 elif(a==0):
     print('the given input is zero')
 elif(a%2!=1):
-    print('the given number',+a,'is even')
+    print('Even')
 elif(a%2==1):
- print('the given number',+a,'is odd')
+ print('Odd')
