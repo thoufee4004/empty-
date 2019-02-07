@@ -1,5 +1,5 @@
-a=raw_input()
-if(a.isalpha()):
+xl=raw_input()
+if(xl.isalpha()):
     print('Alphabet')
 else:
  print("No")
