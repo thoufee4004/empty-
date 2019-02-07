@@ -1,6 +1,6 @@
-a=raw_input("enter the charecter")
+a=raw_input()
 if(a.isalpha()):
     print(a)
-    print('alphabet')
+    print('Alphabet')
 else:
- print("not alphabet")
+ print("No")
