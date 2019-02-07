@@ -1,6 +1,6 @@
 a=raw_input("enter the charecter")
-if(a.isdigit()):
+if(a.isalpha()):
     print(a)
-    print('not alphabet')
+    print('alphabet')
 else:
- print("alphabet")
+ print("not alphabet")
