@@ -5,7 +5,7 @@ while True:
 	except:
 		print('invalid')
 		break
-if t1%400==0 or t1%4==0 or t1%100!=0:
+if t1%400==0 or t1%4==0 and t1%100!=0:
 	print('yes')
 else:
 	print('no')
