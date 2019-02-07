@@ -3,4 +3,7 @@ a=raw_input()
 if(a in list):
   print('Vowel')
 else:
- print('invalid')
+  if (a !=list):
+   print('constant')
+  else:
+   print('invalid')
